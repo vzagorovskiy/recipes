@@ -1,2 +1,2 @@
 # Recipes
-  - __install_gdal.md__ - instal GDAL for Windows with Visual Studio 2015
+  - __install_gdal.md__ - install GDAL for Windows with Visual Studio 2015
