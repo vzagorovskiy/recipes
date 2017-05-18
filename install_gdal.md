@@ -19,6 +19,8 @@
     - nmake /f makefile.vc devinstall
 
 ## Install PROJ.4
-
+1. Download PROJ.4 from http://proj4.org/download.html#current-release or from GitHub https://github.com/OSGeo/proj.4
+1. Set system environment variables
+    - PROJ_LIB = c:\proj
 ## Install GDAL for Python
     
