@@ -18,7 +18,7 @@
     - nmake /f makefile.vc
     - nmake /f makefile.vc devinstall
 
-## Instal PROJ.4
+## Install PROJ.4
 
 ## Install GDAL for Python
     
