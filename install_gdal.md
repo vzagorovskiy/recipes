@@ -22,5 +22,18 @@
 1. Download PROJ.4 from http://proj4.org/download.html#current-release or from GitHub https://github.com/OSGeo/proj.4
 1. Set system environment variables
     - PROJ_LIB = c:\proj
+1. Run cmd and execute following commands
+    - cd /sources/proj-X.X.X
+    - "%VS140COMNTOOLS%vsvars32.bat"
+    - nmake /f makefile.vc
+    - nmake /f makefile.vc install-all
+
 ## Install GDAL for Python
+1. Run cmd
+    - cd c:\pythonXX\Scripts
+    - "%VS140COMNTOOLS%vsvars32.bat"
+    - SET INCLUDE=%INCLUDE%;c:\gdal\include
+    - set LIB=%LIB%;c:\gdal\lib
+    - pip install GDAL
+
     
