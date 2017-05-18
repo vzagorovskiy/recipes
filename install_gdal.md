@@ -17,6 +17,8 @@
     - "%VS140COMNTOOLS%vsvars32.bat"
     - nmake /f makefile.vc
     - nmake /f makefile.vc devinstall
-    
+
+## Instal PROJ.4
+
 ## Install GDAL for Python
     
